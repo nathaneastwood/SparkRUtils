@@ -1,0 +1,18 @@
+Package: SparkRUtils
+Type: Package
+Title: Utility Functions to Extend 'SparkR'
+Version: 0.0.1-9000
+Authors@R:
+    person(given = "Nathan",
+           family = "Eastwood",
+           role = "aut",
+           email = "nathan.eastwood.ext@bayer.com")
+Description: Utility Functions to Extend 'SparkR'
+License: MIT + file LICENSE
+Depends:
+    R (>= 4.0.0)
+Imports:
+    SparkR
+Encoding: UTF-8
+RoxygenNote: 7.2.1
+Roxygen: list(markdown = TRUE)
