@@ -5,7 +5,7 @@ Version: 0.0.1-9000
 Authors@R:
     person(given = "Nathan",
            family = "Eastwood",
-           role = "aut",
+           role = c("aut", "cre"),
            email = "nathan.eastwood.ext@bayer.com")
 Description: Utility Functions to Extend 'SparkR'
 License: MIT + file LICENSE
