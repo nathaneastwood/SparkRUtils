@@ -2,8 +2,7 @@
 
 # SparkRUtils
 
-[![CRAN
-status](https://www.r-pkg.org/badges/version/SparkRUtils)](https://cran.r-project.org/package=SparkRUtils)
+[![CRAN status](https://www.r-pkg.org/badges/version/SparkRUtils)]()
 
 ## Overview
 

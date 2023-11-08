@@ -14,3 +14,5 @@ SparkRUtils.code-workspace
 docs
 inst/doc
 revdep
+CRAN-SUBMISSION
+.Rapp.history
