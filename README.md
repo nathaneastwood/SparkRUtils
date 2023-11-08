@@ -10,12 +10,7 @@
 
 ## Installation
 
-Before installing `SparkRUtils` you must install `SparkR` since, at the time of writing, `SparkR` is not available on CRAN. To install `SparkR` please follow these instructions:
-
-```r
-# install.packages("remotes")
-remotes::install_github("apache/spark/R/pkg")
-```
+Before installing `SparkRUtils` you must install `SparkR` since, at the time of writing, `SparkR` is not available on CRAN. To install `SparkR` please follow [these instructions](https://github.com/apache/spark/tree/master/R/pkg#installing-sparkr).
 
 From there you will be able to install `SparkRUtils` with:
 
