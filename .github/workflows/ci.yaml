@@ -31,8 +31,11 @@ jobs:
 
       - name: Dependencies
         run: |
+          cd ..
           git clone https://github.com/apache/spark
-          sh spark/R/install-dev.sh
+          chmod +x spark/R/install-dev.sh
+          sudo ./spark/R/install-dev.sh
+          cd -
           ./run.sh install_all
 
       - name: Test
