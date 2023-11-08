@@ -9,7 +9,7 @@
 #'
 #' @noRd
 parseSchema <- function(schema) {
-  stopifnot(inherits(x = schema, what = "structType"))
+  schemaCheck(schema)
   schema <- schema$fields()
   res <- vapply(schema, function(x) x$dataType.simpleString(), NA_character_)
   nms <- vapply(schema, function(x) x$name(), NA_character_)
