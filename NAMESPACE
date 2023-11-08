@@ -2,4 +2,6 @@
 
 export(schemaAppend)
 export(schemaRemove)
+export(sgapply)
+importFrom(SparkR,gapply)
 importFrom(SparkR,structType)

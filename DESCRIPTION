@@ -1,12 +1,8 @@
 Package: SparkRUtils
 Type: Package
 Title: Utility Functions to Extend 'SparkR'
-Version: 0.0.1-9000
-Authors@R:
-    person(given = "Nathan",
-           family = "Eastwood",
-           role = c("aut", "cre"),
-           email = "nathan.eastwood.ext@bayer.com")
+Version: 0.0.2
+Authors@R: person(given = "Nathan", family = "Eastwood", role = c("aut", "cre"), email = "nathan.eastwood@icloud.com")
 Description: Utility Functions to Extend 'SparkR'
 License: MIT + file LICENSE
 Depends:
